@@ -1,0 +1,175 @@
+
+
+html{
+
+
+    background: #CADB61;
+    margin: 0px;
+   
+    padding: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 2;
+    border: 1px black;
+    background-color: #F0FDE0;
+    
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #7E9A43;
+    display: block;
+    border: 1px black;
+    background: none;
+    width: 100%;
+    text-align: left;
+   
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: burlywood;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+ 
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: rgb(213, 218, 208);
+    padding-left: 8px;
+  }
+  
+
+
+
+
+
+
+
+
+  /* BARRA DE LOS TEMAS */
+
+  .sidenav-Temas {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 2;
+    margin-left: 10%;
+    border: 2px black;
+    background-color: #F0FDE0;
+    display: block;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav-Temas a, .dropdown-btn-Temas {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #7E9A43;
+    display: block;
+    border: 1px black;
+    background: none;
+    width: 100%;
+    text-align: left;
+   
+  }
+  
+  /* On mouse-over */
+  .sidenav-Temas a:hover, .dropdown-btn-Temas:hover {
+    color: burlywood;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    
+  }
+  
+  /* Add an active class to the active dropdown button */
+ 
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container-Temas {
+    display: none;
+    background-color: rgb(213, 218, 208);
+    padding-left: 8px;
+  }
+
+
+
+
+  #btnJuegoSP{
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+
+
+
+  }
+
+
+  
+  #btnJuegoLN{
+
+    position: fixed;
+    left: 50%;
+    top: 40%;
+
+
+
+  }
+
+
+
+  
+  #btnJuegoCO{
+
+    position: fixed;
+    left: 50%;
+    top: 30%;
+
+
+
+  }
+
+
+  
+  #btnJuegoC{
+
+    position: fixed;
+    left: 50%;
+    top: 20%;
+
+
+
+  }

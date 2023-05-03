@@ -1,0 +1,82 @@
+
+
+html{
+
+
+    background: #CADB61;
+    margin: 0px;
+   
+    padding: 0px;
+
+}
+
+
+body{
+
+    background-color: #7E9A43;
+
+}
+
+#loginTag {
+    
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 5%;
+        
+
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+
+}
+
+
+#inputNU{
+
+
+    margin-top: 50px;
+}
+
+
+#inputPass{
+
+
+    margin-top: 50px;
+}
+
+#btnSesion{
+
+    position: relative;
+    margin-top: 50px;
+
+    width: 420px;
+    color: white;
+    background-color: #97B25B;
+    
+    left: 10%;
+    
+
+}
+
+#loginFrm{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    background: #7E9A43;
+
+    width: 580px;
+    height: 350px;
+
+    border-radius: 25px;
+
+
+}

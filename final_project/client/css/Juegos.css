@@ -1,0 +1,11 @@
+html, body, head{
+    
+    margin: 0px;
+    
+    padding: 0px;
+
+}
+canvas {
+    
+    display: block;
+}

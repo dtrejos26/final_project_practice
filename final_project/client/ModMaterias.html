@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+
+
+<HTML>
+
+
+    <head>
+            
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/modMateriasCSS.css">
+        
+
+        <script src="js/jquery-3.4.1.js"></script>   
+        <script src="js/bootstrap.js"></script>
+
+    </head>
+
+
+
+
+    <body>
+
+        
+       
+
+        <div class="sidenav">
+            <a href="#about">Español</a>
+            
+            <button onclick="mostrarElementos()" class="dropdown-btn">Matematicas
+                
+            </button>
+            <div class="dropdown-container">
+                <a href="#">Ampliacion</a>
+               
+            </div>
+                
+        </div>
+
+
+
+
+        <div class="sidenav-Temas">
+
+            <button  class="dropdown-btn-Temas">I Trimestre
+                
+            </button>
+            <div class="dropdown-container-Temas">
+                <a href="#">Ampliacion</a>
+                       
+             </div>
+
+            <button onclick="mostrarElementos()" class="dropdown-btn-Temas">II Trimestre
+                
+            </button>
+            <div class="dropdown-container-Temas">
+                <a href="#">Ampliacion</a>
+               
+            </div>
+            
+            <button onclick="mostrarElementos()" class="dropdown-btn-Temas">III Trimestre
+                
+            </button>
+            <div class="dropdown-container-Temas">
+                <a href="#">Ampliacion</a>
+               
+            </div>
+                
+        </div>
+
+
+        <button  onclick="location.href='SopaLetras.html'"  id="btnJuegoSP"> Iniciar Sopa de Letras</button>
+
+        <button  onclick="location.href='LaberintoNumeros.html'"  id="btnJuegoLN"> Iniciar Laberinto de Numeros</button>
+
+        <button  onclick="location.href='CuadroOperaciones.html'"  id="btnJuegoCO"> Iniciar Cuadro de Operaciones</button>
+
+        <button  onclick="location.href='Crucigrama.html'"  id="btnJuegoC"> Iniciar Crucigrama</button>
+
+
+        <script>
+
+
+            function mostrarElementos(){
+
+                
+
+                if($(".dropdown-container").css("display") == "none") {
+
+
+                    $(".dropdown-container").css("display", "block");
+
+
+                }else{
+
+
+                    $(".dropdown-container").css("display", "none");
+
+                }
+
+            }
+                
+            
+        </script>
+
+
+        
+    </body>
+
+
+
+
+</HTML>
